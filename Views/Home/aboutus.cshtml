@@ -1,168 +1,158 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-html {
-  box-sizing: border-box;
-}
+﻿<body>
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+    <div class="body-content center">
+        <div id="about-section">
+            <h1>About Us Page</h1>
+            <p>Some text about who we are and what we do.</p>
+        </div>
 
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
+        <div id="about">
+            <h2 class="text-center">Our Team</h2>
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <img src="https://media-exp1.licdn.com/dms/image/C5103AQE88RvtKCKgyw/profile-displayphoto-shrink_200_200/0/1584244952345?e=1625097600&v=beta&t=M01iVT3iL3qdpi8Z0dQZFwdAYuPmkI9RdWBZuhVRUVY" alt="Photo" style="width:100%">
+                        <div class="container">
+                            <h2>Shreya Uday</h2>
+                            <p class="title">Graduate Student</p>
+                            <p>
+                                I am a graduate Business Analytics and Information Systems student.
+                                I work as a GA and I like hiking. I love music and in free time I love to code!!
+                            </p>
+                            <p>shreyauday@usf.edu</p>
+                            <p><button class="button">Contact: +1(970)402-1163</button></p>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="column">
+                    <div class="card">
+                        <img src="https://avatars.githubusercontent.com/u/49741950?v=4" alt="Photo" style="width:100%">
+                        <div class="container">
+                            <h2>Tatyanna Villegas</h2>
+                            <p class="title">Graduate Student</p>
+                            <p>
+                                USF student studying for a Masters in BAIS.
+                                I like skating, coding and working to better visualize products for end users..
+                            </p>
+                            <p>elizabeth109@usf.edu</p>
+                            <p><button class="button">Contact: +1(813)401-5859</button></p>
+                        </div>
+                    </div>
+                </div>
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.container {
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
-}
-body
-{
-  background-color: cream;
-}
-
-h1
-{
-  color: RED;
-  text-align: center;
-}
-
-p
-{
-  font-family: verdana;
-  font-size: 20px;
-  text-align: center;
-}
-
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #333;
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #FF5733;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-    </style>
-</head>
-<body>
-    <div class="topnav">
-        <a asp-area="" asp-controller="Home" asp-action="index">Home</a>
-        <a href="survey.html">Chart Data</a>
-        <a asp-area="" asp-controller="Home" asp-action="aboutus">AboutUs</a>
-    </div>
-
-    <p>ABOUT US</p>
-    <br>
-
-    <div class="row">
-        <div class="column">
-            <div class="card">
-                
-                <div class="container">
-                    <h2>Shreya Uday</h2>
-                    <p class="title">Student at University of South Florida</p>
-                    <p>Pursuing Masters in Business Analytics and Information Systems</p>
-                    <p> I have worked for HTML setup in this project and colloborated with my team to accomplish the task.</p>
-
-                    <li><a href="https://www.linkedin.com/in/surya-narayana-rohith-varma-manthena-620669176/">Linkedin</a></li>
-                    <li><a href="mailto:rohith.pacific@gmail.com">Email</a></li>
+                <div class="column">
+                    <div class="card">
+                        <img src="https://media-exp1.licdn.com/dms/image/C4E03AQG4xilxlqFF7g/profile-displayphoto-shrink_800_800/0/1568135918319?e=1625097600&v=beta&t=iweDkhWA-_yWw7jDyzsHCdbCHQi52EqmMUj8De_cCYE" alt="Photo" style="width:100%">
+                        <div class="container">
+                            <h2>Khubaib Farooq</h2>
+                            <p class="title">Graduate Student</p>
+                            <p>
+                                Khubaib is graduating with a MS in Business Analytics and Information Systems.
+                                His future plans include working as a Business Consultant and lift his home country of
+                                Pakistan out of poverty.
+                            </p>
+                            <p>khubaibf@usf.edu</p>
+                            <p><button class="button">Contact: +1(813)573-7595</button></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="column">
-            <div class="card">
-                
-                <div class="container">
-                    <h2>Tatyanna Villegas</h2>
-                    <p class="title">Student at University of South Florida</p>
-                    <p>Pursuing Masters in Business Analytics and Information Systems</p>
-                    <p> I have worked for various css sheets and classes for setting up pages.</p>
-
-                    <li><a href="">Linkedin</a></li>
-                    <li><a href="tatyana@usf.edu">Email</a></li>
-
-
-
-                </div>
-            </div>
+        <div class="text-center">
+            <br>
+            <h2>Data Model</h2>
+            <img id="erd" class="center image" src="./img/ER Diagram.png">
+            <br>
+            <h2>Git Log</h2>
+            <p>The output shows the following command, for all team members.</p>
+            <p id="git">git log --author=&lt;Github_ID&gt; --pretty=tformat: --numstat</p>
         </div>
-        <div class="column">
-            <div class="card">
-                
-                <div class="container">
-                    <h2>Khubaib Farooq</h2>
-                    <p class="title">Student at University of South Florida</p>
-                    <p>Pursuing Masters in Business Analytics and Information Systems</p>
-                    <p> I have searched for dataset and setting HTML code for various blocks and finally setting files into myusfweb server.</p>
+    </div> <!-- body content end-->
 
-                    <li><a href="https://www.linkedin.com/in/akshith96/">Linkedin</a></li>
-                    <li><a href="mailto:tsaiakshith@gmail.com">Email</a></li>
-                </div>
-            </div>
+    <div class="flex-container flex-center">
+        <div>
+            <h5 class="text-center">Shreya</h5><pre>
+        120  78   about.html
+        -    -    Screen Shot 2021-03-21 at 3.24.15 PM.png
+        -    -    Screen Shot 2021-03-21 at 3.08.43 PM.png
+        3    4    index.cshtml
+        -    -    Screen Shot 2021-03-21 at 3.08.43 PM.png
+        11   9    index.cshtml
+        -    -    Screen Shot 2021-03-20 at 4.25.03 PM.png
+        -    -    ER Diagram.png
+        -    -    Screen Shot 2021-03-20 at 4.25.21 PM.png
+        -    -    Screen Shot 2021-03-20 at 4.25.03 PM.png
+        -    -    img/49741950.jpg
+        -    -    img/WhatsApp Image 2021-03-19 at 11.03.24 PM.jpeg
+        -    -    img/bg.jpg
+        -    -    img/food-and-nutrition.jpg
+        -    -    img/imageSunCard.jpg
+        0    0    index.html => index.cshtml
+        138  0    About.cshtml
+        32   1    index.html</pre>
         </div>
-    </div>
+        <div>
+            <h5 class="text-center">Tatyanna</h5><pre>
+          -       -       .vs/slnx.sqlite
+          32   81   about.html
+          4    2    css/main.css
+          1    1    detail.html
+          1    1    index.html
+          1    1    master.html
+          16   5    detail.html
+          4    0    css/main.css
+          18   16   detail.html
+          -    -    9MainTable.PNG
+          -    -    8FoodMealCategoryBreakout.PNG => ERD Rough Draft.PNG
+          0    8    css/main.css
+          6    2    detail.html
+          -    -    IndexPreview.PNG
+          -    -    Screen Shot 2021-03-20 at 4.25.21 PM.png
+          -    -    Screen Shot 2021-03-21 at 3.24.15 PM.png
+          6    6    About.cshtml
+          0    14   about-copy.html
+          93   0    about.html
+          149  3    css/main.css
+          2    2    detail.html
+          -    -    img/{WhatsApp Image 2021-03-19 at 11.03.24 PM.jpeg => khubaib.jpeg}
+          0    22   index-copy.html
+          59   0    index.html
+          1    1    js/{main.js => chart.js}
+          21   2    master.html
+          14   0    about-copy.html
+          2    0    index-copy.html
+          14   0    master.html
+          3    3    detail.html
+          -    -    8FoodMealCategoryBreakout.PNG
+          -    -    8FoodMealCategoryBreakout.PNG
+          1    1    About.cshtml
+          6    1    detail.html
+          1    1    js/main.js
+          41   24   css/main.css
+          30   30   detail.html
+          19   17   js/main.js
+          53   9    css/main.css
+          64   4    detail.html
+          29   1    css/main.css
+          12   6    detail.html
+          1    1    js/main.js
+          3    6    css/main.css
+          13   7    detail.html
+          11   5    js/main.js
+          9    44   css/main.css
+          29   19   detail.html
+          15   13   js/main.js
+          2    0    detail.html
+          29   0    detail.html
+          -    -    10DetailTable.PNG
+          -    -    8FoodMealCategoryBreakout.PNG
+          -    -    9MainTable.PNG
+          0    0    detail.html
+          2    1    index.html</pre>
+        </div>
+        <div><h5 class="text-center">Khubaib</h5><pre>-    -    -</div>
+    </div> <!-- flex end-->
 
 </body>
-</html>

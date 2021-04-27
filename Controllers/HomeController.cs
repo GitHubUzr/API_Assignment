@@ -20,6 +20,11 @@ namespace API_Assignment.Controllers
             return View();
         }
 
+        public ActionResult FoodBase()
+        {
+            return View();
+        }
+
         public ActionResult aboutus()
         {
             return View();
